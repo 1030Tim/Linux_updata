@@ -11,6 +11,13 @@ char * mysh_read_line()
     return line;
 }
 
+// parsing
+
+char ** mysh_split_line(char * line)
+{
+    
+}
+
 void mysh_loop()
 {
     char *line; // save user's input
