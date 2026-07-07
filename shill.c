@@ -8,6 +8,7 @@ char * mysh_read_line()
     char * line = NULL;
     ssize_t bufsize;
     getline(&line, &bufsize, stdin);
+    return line;
 }
 
 void mysh_loop()
